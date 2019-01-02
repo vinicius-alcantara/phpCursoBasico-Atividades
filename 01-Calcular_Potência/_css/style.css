@@ -1,0 +1,39 @@
+@charset 'utf8';
+* {
+	margin: 0px;
+	padding: 0px
+}
+
+div#interface {
+	width: 1200;
+}
+
+body {
+	background-color: white;
+}
+
+fieldset {
+	box-sizing: border-box;
+	padding: 20px;
+	width: 500px;
+	height: 140px;
+	margin: 30px auto;
+	Background-color: #cecece;
+}
+
+legend#titulo1 {
+	text-align: left;
+	font-family: 'Arial', sans-serif;
+	font-size: 20pt;
+	font-weight: bolder;
+}
+
+input#calc {
+	display: block;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0, .5);
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #888;
+	color: white;
+}

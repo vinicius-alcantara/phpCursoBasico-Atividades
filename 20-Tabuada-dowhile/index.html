@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Média</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="_css/style.css">
+    </head>
+    <body>
+       <div id="interface">
+	
+		<form method="post" action="res.php">
+			<fieldset>
+			<legend id="titulo1">Tabuada</legend>
+				<p>
+					<label for="Inum">Número:
+                                            <input type="number" id="Inum" name="Nnum" required="" placeholder="Digite um número">
+					</label>			
+				</p>
+                                <br/>
+                               <p>
+                <label for="Iop-ad"><input type="radio" checked="" value="1" id="Iop-ad" name="Nop">Adição </label>
+                <label for="Iop-sub"><input type="radio" value="2" id="Iop-sub" name="Nop">Subtração </label>
+                <label for="Iop-mult"><input type="radio" value="3" id="Iop-mult" name="Nop">Multiplicação </label>
+                <label for="Iop-div"><input type="radio" value="4" id="Iop-div" name="Nop">Divisão </label>
+                
+                               </p>
+				<p>
+				<input id="calc" type="submit" value="Calcular">
+				</p>
+			</fieldset>
+		</form>
+		
+	</div>
+    </body>
+</html>

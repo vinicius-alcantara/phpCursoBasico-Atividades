@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Média</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="_css/style.css">
+    </head>
+    <body>
+       <div id="interface">
+	
+		<form method="post" action="res.php">
+			<fieldset>
+			<legend id="titulo1">Escolha uma Operação</legend>
+				<p>
+					<label for="Inum">Número:
+                                            <input type="number" id="Inum" name="Nnum" required="" placeholder="Digite um número">
+					</label>			
+				</p>
+                                <br/>
+                               <p>
+                                    <label for="Idobro">
+                                       <input type="radio" id="Idobro" name="Nop" value="dobro">
+                                   Dobro </label>
+                                   
+                                   <label for="Icubo">
+                                       <input type="radio" id="Icubo" name="Nop" value="cubo"/>
+                                   Cubo </label>
+                                   
+                                   <label for="Iraiz">
+                                       <input type="radio" id="Iraiz" name="Nop" value="raiz"/>
+                                   Raiz </label>
+                               </p>
+				<p>
+				<input id="calc" type="submit" value="Calcular">
+				</p>
+			</fieldset>
+		</form>
+		
+	</div>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Estado e Região</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="_css/style.css">
+    </head>
+    <body>
+       <div id="interface">
+	
+            <form method="post" action="res.php">
+		<fieldset>
+                    <legend id="titulo1">Descubra a região do seu estado!</legend>
+			<p>
+                            <label for="Iestado">Estado:
+                                <select id="Iestado" name="Nestado">
+                                    <!-- Região Norte -->
+                                    <optgroup>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="PA">Pará</option>
+                                        <option value="TO">Tocantins</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="AC">Acre</option>
+                                    </optgroup>
+                                    <!-- Região Nordeste -->
+                                    <optgroup>
+                                        <option value="MA">Maranhão</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="RN">Rio Grande do Norte</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="BA">Bahia</option>
+                                    </optgroup>
+                                    <!-- Região Centro-Oeste -->
+                                    <optgroup>                               
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="GO">Goiás</option>
+                                    </optgroup>
+                                    <!-- Região Sudeste -->    
+                                    <optgroup>                               
+                                        <option value="SP">São Paulo</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="ES">Espírito Santo</option>
+                                        <option value="MG">Minas Gerais</option>
+                                    </optgroup>
+                                    <!-- Região Sul -->
+                                    <optgroup>                               
+                                            <option value="PR">Paraná</option>
+                                            <option value="RS">Rio Grande do Sul</option>
+                                            <option value="SC">Santa Catarina</option>
+                                    </optgroup>
+                                </select>
+                            </label>			
+			</p>
+                            <br/>
+                                    
+                        <p>
+                            <input id="calc" type="submit" value="Descobrir">
+			</p>
+		</fieldset>
+                    
+	</form>
+		
+	</div>
+    </body>
+</html>

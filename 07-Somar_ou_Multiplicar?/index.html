@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Ecsolha a Operação</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="_css/style.css">
+    </head>
+    <body>
+       <div id="interface">
+	
+		<form method="post" action="res.php">
+			<fieldset>
+			<legend id="titulo1">Somar ou Multiplicar?</legend>
+				<p>
+					<label for="Inum1">Número:
+                                            <input type="number" id="Inum1" name="Nnum1" required="" placeholder="Digite um número">
+					</label>			
+				</p>
+                                <br/>
+                                <p>
+					<label for="Inum2">Número:
+                                            <input type="number" id="Inum2" name="Nnum2" required="" placeholder="Digite um número">
+					</label>			
+				</p>
+				<br/>
+                                
+                                    
+            <h3>Escolha uma Opoeração!</h3>
+            <br/>
+                <label for="Iop-ad"><input type="radio" id="Iop-ad" name="Nop" value="adicao" checked="" >Adição</label>
+                
+                    <br/>
+                    
+                    <label for="Iop-mult"><input type="radio" id="Iop-mult" name="Nop" value="multiplicacao">Multiplicação</label>
+                                    
+                                
+				<p>
+				<input id="calc" type="submit" value="Calcular">
+				</p>
+			</fieldset>
+		</form>
+		
+	</div>
+    </body>
+</html>
